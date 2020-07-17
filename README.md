@@ -6,3 +6,9 @@ There are many environments and algorithms in Reinforcement Learning (RL). In va
 These two algorithms performed in multi-steps case are not dominated the others for all problems, so this paper performed a multi-steps algorithm called Q(σ) which merges them by using an variable σ which controls the trade-offs of using SARSA and Tree-backup.
 
 Implemented algorithms:
+
+# Curves (commit ```2905e89```)
+
+## BreakoutNoFrameskip-v4 (1 run)
+
+![Loading...](https://raw.githubusercontent.com/redway1225/RL_project_team13/master/image/19-state%20Random%20Walk%20.png)
