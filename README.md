@@ -16,7 +16,7 @@ Implemented algorithms:
 Don't need any high level library to run this source code.
 
 # Usage   
-```source```contains examples for all the implemented algorithms in different environments.
+```source/```contains examples for all the implemented algorithms in different environments.
 
 # Curves (commit `````)
 
