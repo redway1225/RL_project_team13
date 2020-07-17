@@ -6,12 +6,23 @@ There are many environments and algorithms in Reinforcement Learning (RL). In va
 These two algorithms performed in multi-steps case are not dominated the others for all problems, so this paper performed a multi-steps algorithm called Q(σ) which merges them by using an variable σ which controls the trade-offs of using SARSA and Tree-backup.
 
 Implemented algorithms:
+* Tree-backup (Q(0))
+* Expected SARSA (Q(1))
+* Dynamic decreasing σ (Q(σ))  
+
+
+# Dependency  
+
+Don't need any high level library to run this source code.
+
+# Usage   
+```source```contains examples for all the implemented algorithms in different environments.
 
 # Curves (commit `````)
 
 ## 19-state Random Walk Example: n-step TD Prediction
 
-![Loading...](https://github.com/redway1225/RL_project_team13/blob/master/image/19-state%20Random%20Walk%20.png?raw=true)  
+![Loading...](https://github.com/redway1225/RL_project_team13/blob/master/image/19-state%20Random%20Walk%20.png)  
 n : 1→16  
 α : 0→1  
 σ : { 0 , 0.25 , 0.5 , 0.75 , 1 } , and dynamic decreasing σ from 1 to 0  
@@ -20,7 +31,7 @@ result : Averaged across 100 runs
 
 ## Stochastic Windy Gridworld
 
-![Loading...](https://raw.githubusercontent.com/redway1225/RL_project_team13/master/image/Stochastic%20windy%20gridworld.png?token=AE2SDJDS3OGH5PHFMNNWSS27CESWI)  
+![Loading...](https://github.com/redway1225/RL_project_team13/blob/master/image/Stochastic%20windy%20gridworld.png)  
 ε-greedy policy, ε : 0.1  
 n : 1 and 3  
 α : 0 -> 1  
@@ -30,7 +41,7 @@ result : Averaged across 1000 runs
 
 ## Mountain Cliff
 
-![Loading...](https://raw.githubusercontent.com/redway1225/RL_project_team13/master/image/The%20mountain%20cliff%20environment.png?token=AE2SDJENSNUHOXUXRA3RS427CES5A)  
+![Loading...](https://github.com/redway1225/RL_project_team13/blob/master/image/The%20mountain%20cliff%20environment.png)  
 ε-greedy policy, ε : 0.1  
 α = 1/6 and n = 4 for Q(1)  
 α = 1/6 and n = 8 for Q(0)  
