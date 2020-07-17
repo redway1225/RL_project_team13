@@ -28,11 +28,13 @@ n : 1 and 3
 episode : 100 episodes in experiment  
 result : Averaged across 1000 runs
 
-## 19-state Random Walk Example: n-step TD Prediction
+## Mountain Cliff
 
-![Loading...](https://github.com/redway1225/RL_project_team13/blob/master/image/19-state%20Random%20Walk%20.png?raw=true)  
-n : 1→16  
-α : 0→1  
-σ : { 0 , 0.25 , 0.5 , 0.75 , 1 } , and dynamic decreasing σ from 1 to 0  
-episode : 50 episodes  
+![Loading...](https://raw.githubusercontent.com/redway1225/RL_project_team13/master/image/The%20mountain%20cliff%20environment.png?token=AE2SDJENSNUHOXUXRA3RS427CES5A)  
+ε-greedy policy, ε : 0.1  
+α = 1/6 and n = 4 for Q(1)  
+α = 1/6 and n = 8 for Q(0)  
+α = 1/4 and n = 4 for Q(0.5)  
+α = 1/7 and n = 8 for Dynamic Q(σ)  
+episode : 500 episodes in experiment  
 result : Averaged across 100 runs  
