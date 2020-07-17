@@ -18,17 +18,10 @@ Please see requirements.txt to check the required package is installed.
 # Usage   
 ```source/```contains examples for all the implemented algorithms in different environments.
 
-In ```Q_Sigma_Gridworld.ipynb``` and ```Q_Sigma_RandomWalk.ipynb```
+In ```Q_Sigma_MountainCliff.ipynb```,```Q_Sigma_Gridworld.ipynb``` and ```Q_Sigma_RandomWalk.ipynb```
 * The 1st cell is to import package we need and declare the static variable and function.
-* The 2nd cell is the declare the parameters of training. For example, alpha,sigma etc.
-* THe 3rd cell is the implementaion of Q-sigma function, note that the return of Q-sigma is related to the picture in ```image/``` directory.
-* The 4th cell is the training process.
-* The 5th cell is to draw the figure we need.  
-
-In ```Q_Sigma_MountainCliff.ipynb```
-* The 1st cell is to import package we need and declare the static variable and function.
-* The 2nd cell In MountainCliff.ipynb, shows how to measure consecutive space. For example, fixed 2D matrix, tilecoding.
-* THe 3rd cell is the implementaion of Q-sigma function, note that the return of Q-sigma is related to the picture in ```image/``` directory.
+* The 2nd cell is the declare the parameters of training. For example, alpha,sigma etc.And in ```MountainCliff.ipynb```, shows how to measure consecutive space. For example, fixed 2D matrix, tilecoding.
+* The 3rd cell is the implementaion of Q-sigma function, note that the return of Q-sigma is related to the picture in ```image/``` directory.
 * The 4th cell is the training process.
 * The 5th cell is to draw the figure we need.  
 
