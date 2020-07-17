@@ -17,6 +17,7 @@ Please see requirements.txt to check the required package is installed.
 
 # Usage   
 ```source/```contains examples for all the implemented algorithms in different environments.
+
 In ```Q_Sigma_Gridworld.ipynb``` and ```Q_Sigma_RandomWalk.ipynb```
 * The 1st cell is to import package we need and declare the static variable and function.
 * The 2nd cell is the declare the parameters of training. For example, alpha,sigma etc.
