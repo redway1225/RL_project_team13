@@ -38,3 +38,12 @@ result : Averaged across 1000 runs
 α = 1/7 and n = 8 for Dynamic Q(σ)  
 episode : 500 episodes in experiment  
 result : Averaged across 100 runs  
+
+# References
+* [Reinforcement learning: An introduction. MIT press, 2018](https://mitpress.mit.edu/books/reinforcement-learning-second-edition)
+* [Multi-step reinforcement learning: A unifying algorithm](https://arxiv.org/abs/1703.01327)
+* [Predicting the outcomes of mlb games with a machine learning approach](https://www.semanticscholar.org/paper/Predicting-the-outcomes-of-MLB-games-with-a-machine-Elfrink-Bhulai/caf99deae3aec5577f1373f9307e89040f523aff)
+
+# Code of Our works
+
+* [algorithm](https://www.google.com/]
