@@ -32,7 +32,7 @@ In ```Q_Sigma_MountainCliff.ipynb```
 * The 4th cell is the training process.
 * The 5th cell is to draw the figure we need.  
 
-# Curves (commit `````)cell is the implementaion of Q-sigma function, 
+# Curves (commit `````)
 
 ## 19-state Random Walk Example: n-step TD Prediction
 
